@@ -137,9 +137,9 @@ struct REALITIESANIMATION_API FTGORRigUnit_CustomiseInitial : public FTGORRigUni
 
 
 /**
- * Copy transforms from bones to controls
+ * Propagates a transform down a given chain
  */
-USTRUCT(meta = (DisplayName = "Clone Transforms", Category = "TGOR Utility", Keywords = "TGOR,Utility", PrototypeName = "CloneTransforms", NodeColor = "1.0 0.44 0.0"))
+USTRUCT(meta = (DisplayName = "Propagate Transforms", Category = "TGOR Utility", Keywords = "TGOR,Utility", PrototypeName = "CloneTransforms", NodeColor = "1.0 0.44 0.0"))
 struct REALITIESANIMATION_API FTGORRigUnit_Propagate : public FTGORRigUnit_Mutable
 {
 	GENERATED_BODY()
